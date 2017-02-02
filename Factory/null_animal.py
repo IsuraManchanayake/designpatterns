@@ -9,12 +9,10 @@ class NullAnimal(IAnimal):
 	encounter null reference errors.
 	"""
 
-	@classmethod
 	def __init__(self):
 		"""NullAnimal constructor"""
 		print "an invisible animal born"
 
-	@classmethod
 	def shout(self):
 		"""NullAnimal's implementation of IAnimal.shout()"""
 		print "bleh-bleh-bleh"
