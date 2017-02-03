@@ -10,7 +10,7 @@ def main():
 	bus = VehicleCache.get_vehicle("bus")
 	three_wheel = VehicleCache.get_vehicle("three wheel")
 
-	if car1 is car2:
+	if car1 is car2:	# True
 		print "car1 and car2 are same"
 	else:
 		print "car1 and car2 are distinct objects but duplicates"
