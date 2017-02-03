@@ -30,7 +30,6 @@ class MealBuilder(object):
 		Returns:
 			non-vegetarian meal
 		"""
-
 		nvmeal = Meal()
 		nvmeal.add_item(ChickenBurger())
 		nvmeal.add_item(Coke())
